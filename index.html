@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Theme & Scroll-Reveal Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="smooth.css">
+</head>
+<body data-theme="theme-1">
+  <nav class="navbar">
+    <div class="logo">OneihBrand</div>
+    
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="hamburger" id="hamburger">
+      <i class="fa-solid fa-bars" id="hamburgerIcon"></i>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <section id="home" class="hero reveal">
+      <h1>Dynamic Theme & Scroll Animations</h1>
+      <p>Scroll down this page to watch elements smoothly animate into view, and use the theme switcher to change color profiles on the fly.</p>
+      <button id="colorBtn">Switch Color Theme</button>
+    </section>
+
+    <hr class="divider">
+
+    <section id="about" class="content-section reveal">
+      <h2>About Our Advanced Layout</h2>
+      <p>Modern web development requires both fluid styling architectures and optimal performance. By leveraging native CSS custom properties and lightweight JavaScript Intersection Observers, we can achieve high-end visual interactions without bloating our codebase with heavy external frameworks.</p>
+      <p>This layout is fully responsive, mobile-first, and structured with separate clean HTML, CSS, and JS files for seamless maintenance.</p>
+    </section>
+
+    <section id="features" class="section-block">
+      <h2 class="section-title reveal">Core Platform Features</h2>
+      <div class="cards-grid">
+        <div class="card reveal">
+          <i class="fa-solid fa-palette card-icon"></i>
+          <h3>Dynamic Theming</h3>
+          <p>Switch instantly across multiple root color palettes with immediate contrast adjustments.</p>
+        </div>
+        <div class="card reveal">
+          <i class="fa-solid fa-mobile-screen card-icon"></i>
+          <h3>Responsive Navigation</h3>
+          <p>Adaptive navigation menu that transforms cleanly into a mobile hamburger drawer with an animated icon toggle.</p>
+        </div>
+        <div class="card reveal">
+          <i class="fa-solid fa-bolt card-icon"></i>
+          <h3>Scroll-Driven Loading</h3>
+          <p>Elements fade and slide gracefully into visibility dynamically as the user scrolls through the viewport.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="content-section reveal">
+      <h2>Professional Engineering Solutions</h2>
+      <p>We specialize in crafting bespoke digital experiences, single-page interactive applications, and component-driven user interfaces. Every line of code is optimized for performance, accessibility, and cross-browser compatibility.</p>
+      <ul class="service-list">
+        <li>Custom Frontend Architecture &amp; Component Design</li>
+        <li>State Management &amp; Client-Side Logic Implementation</li>
+        <li>UI/UX Optimization &amp; Mobile-First Layout Adjustments</li>
+      </ul>
+    </section>
+
+    <section id="testimonials" class="section-block">
+      <h2 class="section-title reveal">What Clients Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <p>"The scroll animations combined with the theme switcher give this site an exceptionally polished and modern feel."</p>
+          <h4>Oyewale Feranmi, UI Lead</h4>
+        </div>
+        <div class="testimonial-card reveal">
+          <p>"Clean code separation made it super simple to integrate into our existing project pipeline without hassle."</p>
+          <h4>Adeyemo Mukthar, Full-Stack Developer</h4>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="footer">
+    <p>&copy; 2026 OneihBrand Platform. All rights reserved. Built with clean HTML, CSS, and Vanilla JavaScript.</p>
+  </footer>
+
+  <script src="smooth.js"></script>
+</body>
+</html>
